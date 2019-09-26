@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#container{
+    position: relative; 
+    margin: 0 auto;
+    left:-150px;
+    background-color: green;
+    top: 200px; 
+    width: 500px;
+    height:50px;
+    border-radius: 20px;
+
+   
+    animation-name: loading-bar;
+    animation-duration: 10s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1
+}
+
+.box{
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    top: 200px;
+    border-radius: 20px;
+    
+   
+}
+@keyframes loading-bar{
+    0% {left:-150px;  }
+    8% {left:-140px; :}  
+    10% {left:-140px; :} 
+    12% {left:-100px; :} 
+    15% {left:-90px; :}
+    50% {left:250px;:}
+
+}
+.red{
+    background-color:brown;
+}
