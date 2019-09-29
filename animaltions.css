@@ -9,7 +9,7 @@
     position: relative; 
     margin: 0 auto;
     left:-150px;
-    background-color: green;
+    background-color: pink;
     top: 200px; 
     width: 500px;
     height:50px;
@@ -19,7 +19,7 @@
     animation-name: loading-bar;
     animation-duration: 10s;
     animation-timing-function: ease-in;
-    animation-iteration-count: 1
+   
 }
 
 .box{
@@ -34,11 +34,9 @@
 }
 @keyframes loading-bar{
     0% {left:-150px;  }
-    8% {left:-140px; :}  
-    10% {left:-140px; :} 
-    12% {left:-100px; :} 
-    15% {left:-90px; :}
-    50% {left:250px;:}
+    
+    100% {left:250px;:}
+
 
 }
 .red{
